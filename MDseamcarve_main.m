@@ -21,7 +21,6 @@ end
 img=imread(fullfile(basedir,imgname));
 [bllaMask,pointList]=visualize_blla_path(fullfile(basedir,pathname),fullfile(basedir,imgname),2);
 line_list=unique(pointList(:,1));
-line_list=5;
 errorlist=[];
 imgRes=img;
 for i=1:numel(line_list)
