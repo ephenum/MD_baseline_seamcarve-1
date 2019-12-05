@@ -1,0 +1,11 @@
+function tree
+
+MDseamcarve_main
+	visualize_blla_path
+		get_point_list_of_path
+	getMDSeparatingLinesAroundBLLA4seamcarve
+		linePixelsOnMatrix
+		getAngleLine
+		search_line_for_first_impediment
+		points2lines
+	compute_MD_separating_seams
