@@ -16,7 +16,7 @@ if nargin==0
    basedir='E:\MATLAB\kraken\seamcarve_trial\eval';
    show_result=1; 
    imgname='bge-cl0146_345.png';
-   pathname='bge-cl0146_345_new.path';
+   pathname='bge-cl0146_345.path';
 end
 img=imread(fullfile(basedir,imgname));
 [bllaMask,pointList]=visualize_blla_path(fullfile(basedir,pathname),fullfile(basedir,imgname),2);
